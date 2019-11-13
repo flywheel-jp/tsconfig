@@ -1,11 +1,14 @@
 {
     "name": "@flywheel-jp/tsconfig",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "MIT",
     "repository": "flywheel-jp/tsconfig",
     "author": "Yuku Takahashi <yuku@flywheel.jp>",
     "main": "tsconfig.json",
     "engines": {
         "node": ">=12"
+    },
+    "peerDependencies": {
+        "typescript": "^3.7.0"
     }
 }
