@@ -5,10 +5,7 @@
     "repository": "flywheel-jp/tsconfig",
     "author": "Yuku Takahashi <yuku@flywheel.jp>",
     "main": "tsconfig.json",
-    "engines": {
-        "node": ">=12"
-    },
     "peerDependencies": {
-        "typescript": "^3.7.0"
+        "typescript": ">=3.7.0"
     }
 }

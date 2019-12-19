@@ -1,0 +1,8 @@
+// tsconfig.json for Node.js v12
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "target": "es2019",
+        "lib": ["es2019"]
+    }
+}
