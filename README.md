@@ -1,5 +1,7 @@
 # @flywheel-jp/tsconfig
 
+[![](https://img.shields.io/npm/v/@flywheel-jp/tsconfig)](https://www.npmjs.com/package/@flywheel-jp/tsconfig)
+
 > Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for [FLYWHEEL](https://flywheel.jp/).
 
 ## Installation
