@@ -1,13 +1,12 @@
+// Base tsconfig.json
 {
     "compilerOptions": {
-        // Target: Node.js v12
-        "target": "es2019",
         "module": "commonjs",
         "moduleResolution": "node",
         "resolveJsonModule": true,
-        "lib": ["es2019"],
         "skipLibCheck": true,
         "useDefineForClassFields": true,
+        "esModuleInterop": true,
         // Code format
         "sourceMap": true,
         "declaration": true,
@@ -21,8 +20,5 @@
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true,
         "noEmitOnError": true,
-        // React
-        "jsx": "react",
-        "esModuleInterop": true
     }
 }

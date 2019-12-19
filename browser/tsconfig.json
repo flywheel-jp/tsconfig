@@ -1,0 +1,12 @@
+// tsconfig.json for browser environment
+// This config assumes emit results will be transpiled by babel
+// in order to injext polifill files based on the browserlist.
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "lib": ["esnext"],
+        "jsx": "preserve"
+    }
+}
