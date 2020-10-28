@@ -1,24 +1,24 @@
 // Base tsconfig.json
 {
-    "compilerOptions": {
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "resolveJsonModule": true,
-        "skipLibCheck": true,
-        "useDefineForClassFields": true,
-        "esModuleInterop": true,
-        // Code format
-        "sourceMap": true,
-        "declaration": true,
-        "pretty": true,
-        "newLine": "lf",
-        "stripInternal": true,
-        // Strict Type-Checking options
-        "strict": true,
-        "noImplicitReturns": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "noFallthroughCasesInSwitch": true,
-        "noEmitOnError": true,
-    }
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "useDefineForClassFields": true,
+    "esModuleInterop": true,
+    // Code format
+    "sourceMap": true,
+    "declaration": true,
+    "pretty": true,
+    "newLine": "lf",
+    "stripInternal": true,
+    // Strict Type-Checking options
+    "strict": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noEmitOnError": true,
+  }
 }

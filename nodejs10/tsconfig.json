@@ -1,8 +1,10 @@
 // tsconfig.json for Node.js v10
 {
-    "extends": "..//tsconfig.json",
-    "compilerOptions": {
-        "target": "es2018",
-        "lib": ["es2018"]
-    }
+  "extends": "..//tsconfig.json",
+  "compilerOptions": {
+    "target": "es2018",
+    "lib": [
+      "es2018"
+    ]
+  }
 }
